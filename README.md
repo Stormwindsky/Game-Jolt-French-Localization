@@ -1,26 +1,19 @@
-# Русификатор Game Jolt
+# Traduction française Game Jolt
 
-<div align="center">
-    <img title="Обзор перевода" alt="Обзор перевода" src="cover.png">
-</div>
-<br>
+<div align="center"> <img title="Aperçu de la traduction" alt="Aperçu de la traduction" src="cover.png"> </div>
 
-Русификатор [Game Jolt](https://gamejolt.com/), реализованный в виде скрипта для [Tampermonkey](https://github.com/Tampermonkey/tampermonkey).
+Traduction française pour Game Jolt, implémentée sous forme de script pour Tampermonkey.
+Installation
 
-## Установка
+    Installez Tampermonkey ;
 
-1. Установите Tampermonkey;
-2. Откройте ссылку на скрипт c [GitHub](https://github.com/RushanM/GameJolt-Russian-Translation/raw/main/%D0%A0%D1%83%D1%81%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D0%BE%D1%80%20Game%20Jolt.user.js) или [GreasyFork](https://greasyfork.org/ru/scripts/496844-game-jolt-russian-translation);
-3. Обновите страницу Game Jolt, если она была открыта;
-4. Готово!
+    Ouvrez le lien du script depuis GitHub ou GreasyFork ;
 
-## Материальная поддержка
+    Actualisez la page Game Jolt si elle était déjà ouverte ;
 
-Если моя работа нравится вам настолько, что вы готовы отправить мне деньги, можно сделать это по следующим ссылкам:
+    Terminé !
 
-* [Boosty](https://boosty.to/rushanm);
-* [VK Donut](https://vk.com/deflcomm?w=donut_payment-71906125&levelId=106);
-* [Donation Alerts](https://www.donationalerts.com/r/deflecta);
-* [ЮMoney](https://yoomoney.ru/to/410015215253910).
+# Notes et Crédits:
+Ce script a été créé à la base par RushanM https://github.com/RushanM 
 
-Буду благодарен за каждый рубль!
+Il s'agissait d'un projet visant à traduire Gamejolt.com en russe. J'ai donc eu l'idée de faire un "fork" pour le traduire en français (France). Une version québécoise sera disponible plus tard dans le développement.
