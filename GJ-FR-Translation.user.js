@@ -300,6 +300,48 @@
                 { oldText: 'Realms bring all the content around a particular topic or interest into a single place for you to browse.', newText: 'Les royaumes regroupent tout le contenu lié à un sujet ou intérêt particulier en un seul endroit.' },
                 { oldText: 'Follow and support your favorite creators on Game Jolt!', newText: 'Suivez et soutenez vos créateurs préférés sur Game Jolt !' }
             ]
+        },
+        // --- NOUVEAUX AJOUTS PROFIL ET POSTS ---
+        {
+            selector: 'div.stat-big-label',
+            replacements: [
+                { oldText: 'Followers', newText: 'Abonnés' },
+                { oldText: 'Likes', newText: 'Likes' },
+                { oldText: 'Following', newText: 'Abonnements' }
+            ]
+        },
+        {
+            selector: 'nav.platform-list.inline a, div.page-cut nav a',
+            replacements: [
+                { oldText: 'Posts', newText: 'Posts' },
+                { oldText: 'Likes', newText: 'Likes' },
+                { oldText: 'Draft posts', newText: 'Brouillons' },
+                { oldText: 'Scheduled posts', newText: 'Posts programmés' }
+            ]
+        },
+        {
+            selector: 'button span, div span, div.-text p span',
+            replacements: [
+                { oldText: 'Edit', newText: 'Modifier' },
+                { oldText: 'Views are being collected', newText: 'Les vues sont en cours de collecte' },
+                { oldText: 'Everyone else seems to be in sleep mode, why don\'t you start the conversation?', newText: 'Tout le monde semble dormir, pourquoi ne pas lancer la conversation ?' },
+                { oldText: 'Remember to be respectful and follow our', newText: 'N\'oubliez pas d\'être respectueux et de suivre nos' },
+                { oldText: 'Site Guidelines', newText: 'Règles du site' }
+            ]
+        },
+        {
+            selector: 'h4 span, div.-text p span, div.text-muted span',
+            replacements: [
+                { oldText: 'comments', newText: 'commentaires' },
+                { oldText: 'views', newText: 'vues' }
+            ]
+        },
+        {
+            selector: 'span',
+            replacements: [
+                { oldText: /(\d+)\s*months/g, newText: '$1 mois' },
+                { oldText: /(\d+)\s*day/g, newText: '$1 jour' }
+            ]
         }
     ];
 
