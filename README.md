@@ -1,4 +1,4 @@
-# Traduction française Game Jolt
+# 🇫🇷 Traduction française Game Jolt 🇫🇷
 
 <div align="center"> <img title="Aperçu de la traduction" alt="Aperçu de la traduction" src="cover.png"> </div>
 
